@@ -11,7 +11,7 @@ public class ConverterApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(ConverterApplication.class.getResource("converter-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 600, 240);
+        Scene scene = new Scene(fxmlLoader.load(), 420, 580);
         stage.setTitle("The Global Vault");
         stage.setScene(scene);
         stage.show();
